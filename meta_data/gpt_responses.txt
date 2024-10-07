@@ -1,0 +1,25 @@
+AIMessage(content="1. **Bar Chart**: You can use a bar chart to visualize the distribution 
+of 'Operating System'. 
+This will show the number of users for each operating system.\n\n2. **Pie Chart**:
+ A pie chart can be used to visualize the distribution of 'Gender'. 
+This will show the proportion of male and female users.\n\n3. **Histogram**: 
+A histogram can be used to visualize the distribution of 'Age'. This will show the 
+number of users in each age group.\n\n4. 
+**Scatter Plot**: A scatter plot can be used to visualize the relationship between
+ 'App Usage Time (min/day)' and 'Battery Drain (mAh/day)'. Th
+is will show if there is a correlation between these two variables.\n\n5. 
+**Box Plot**: A box plot can be used to visualize the distribution of 'Screen On Time (hours/day)' for
+ each 'User Behavior Class'. This will show the variation in screen on time for different user behavior 
+ classes.\n\n6. 
+ **Heatmap**: A heatmap can be used to visualize the correlation between all 
+ the numerical variables in the dataset. This will show the strength and direction of the 
+ relationship between each pair of variables.\n\n7. 
+ **Line Chart**: A line chart can be 
+ used to visualize the trend of 'Data Usage (MB/day)' over time (if time data is available). 
+ This will show how data usage changes over time.", additional_kwargs={'refusal': None}, 
+ response_metadata={'token_usage': {'completion_tokens': 272, 'prompt_tokens': 313,
+  'total_tokens': 585, 'completion_tokens_details': {'audio_tokens': None, 'reasoning_tokens': 0},
+   'prompt_tokens_details': {'audio_tokens': None, 'cached_tokens': 0}}, 
+   'model_name': 'gpt-4-0613', 'system_fingerprint': None, 'finish_reason': 'stop', 
+   'logprobs': None}, id='run-654701ad-7bc1-41de-8eea-d22c6d4d718d-0', usage_metadata={'input_tokens': 313, 
+   'output_tokens': 272, 'total_tokens': 585})

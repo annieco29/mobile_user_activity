@@ -56,16 +56,3 @@ What's interesting about most of the numeric variables, like App Usage, Number o
 ![Correlation matrix of numeric variables](images/numeric_variable_corr_matrix.png)
 
 Overall, we have completed some initial exploration of this data set, and we are ready to build a model that predicts user behavior class.
-
-
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)

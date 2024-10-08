@@ -31,15 +31,29 @@ This trend is somewhat similar for the device models, but we see more variabilit
 
 There is a pretty even distribution of genders and ages in the data sample, with slightly more males than females, and the lowest number of users under the age of 20.
 
+![Bar Chart of Gender](images/gender_bar_chart.png)
+
+![Histogram of Age](images/age_distribution_hist.png)
+
 A cross tab of gender with user behavior class shows that there is a trend where there are the most number of women in user behavior class 3, and the least number of men overall in user behavior class 3, which is makes gender a useful variable for potentially predicting user behavior class.
+
+![Cross Tab of Gender vs. User Behavior](images/gender_vs_user_behavior_cross_tab.png)
 
 A box plot of age distributions across user behavior classes show that there is not much variability in median age across the different user behavior classes, but the median age in class 4 is slightly higher than the other classes, and the range of ages in classes 3 and 4 is wider.
 
+![Box plot of Age vs. User Behavior](images/age_vs_user_behavior_box_plot.png)
+
 App usage is very clearly correlated with battery drain based on the scatter plot.
+
+![Scatter plot of app usage vs. battery drain](images/app_usage_vs_battery_drain_scatterplot.png)
 
 Screen time is also very clearly correlated with user behavior class, with higher screen times directly resulting in higher user behavior. 
 
+![Box plot of Age vs. User Behavior](images/screen_time_vs_user_behavior_box_plot.png)
+
 What's interesting about most of the numeric variables, like App Usage, Number of Apps, Battery Drainage, Screen time, and data usage is that they are mostly all highly correlated with each other and with the target variable, user behavior class. This is to be expected, but because they are all so highly correlated with one another, models that take a simplistic approach to using these variables (for example, only using one variable to predict user behavior), or that find interactions between these variables, may perform better.
+
+![Correlation matrix of numeric variables](images/numeric_variable_corr_matrix.png)
 
 Overall, we have completed some initial exploration of this data set, and we are ready to build a model that predicts user behavior class.
 

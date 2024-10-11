@@ -1,5 +1,5 @@
 # Mobile User Behavior
-This repo contains an analysis on predicting a user's mobile usage.
+This repo contains an analysis on mobile user behavior data. 
 
 ## Exploratory Data Analysis
 
@@ -51,8 +51,11 @@ Screen time is also very clearly correlated with user behavior class, with highe
 
 ![Box plot of Age vs. User Behavior](images/screen_time_vs_user_behavior_box_plot.png)
 
-What's interesting about most of the numeric variables, like App Usage, Number of Apps, Battery Drainage, Screen time, and data usage is that they are mostly all highly correlated with each other and with the target variable, user behavior class. This is to be expected, but because they are all so highly correlated with one another, models that take a simplistic approach to using these variables (for example, only using one variable to predict user behavior), or that find interactions between these variables, may perform better.
+Most of the numeric variables, like App Usage, Number of Apps, Battery Drainage, Screen time, and data usage are all highly correlated with each other and with the target variable, user behavior class. This is to be expected, but because they are all so highly correlated with one another, models that take a simplistic approach to using these variables (for example, only using one variable to predict user behavior), or that find interactions between these variables, may perform better.
+
+One thing that is important to note about these high correlations is that they potentially indicate something called "data leakage". This would be a very mild case of data leakage, but basically, the idea is that if you know a user's "Screen On Time", why do you need to know their User Behavior Class, since the two are so highly correlated? We will hypothesize on this some more in the modeling section.
 
 ![Correlation matrix of numeric variables](images/numeric_variable_corr_matrix.png)
 
 Overall, we have completed some initial exploration of this data set, and we are ready to build a model that predicts user behavior class.
+

@@ -1,5 +1,5 @@
 # Mobile User Behavior
-This repo contains an analysis on mobile user behavior data. 
+This repo contains an analysis on mobile user behavior data. The data set was posted to kaggle here: https://www.kaggle.com/datasets/valakhorasani/mobile-device-usage-and-user-behavior-dataset/data. The goal of this project was to demonstrate the full cycle of exploring data, building a simple classifier, and evaluating that classifier.
 
 ## Exploratory Data Analysis
 
@@ -58,4 +58,6 @@ One thing that is important to note about these high correlations is that they p
 ![Correlation matrix of numeric variables](images/numeric_variable_corr_matrix.png)
 
 Overall, we have completed some initial exploration of this data set, and we are ready to build a model that predicts user behavior class.
+
+## Fitting a model to Mobile User Behavior
 
